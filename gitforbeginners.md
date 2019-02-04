@@ -44,6 +44,8 @@ You need to initalize the folder
 
 You use two repositories in Git to collaborate with others: a local repo and a remote repo. Your local repo (on your computer and what we are creating here) is where you do all your work then you'll be able to `$ git push` it onto your remote repo and then `$ git pull` the remote repo back into your local repo.
 
+To be able to see the git folder in your repository. You need to unhide the folder. You can do this by clicking on Control Panel, Folder Options, View and tick the 'Show hidden, files, folders and drive ' option. Don't worry about this git folder, it just lives in your repository.
+
 **3.1 Creating files**
 You can either create the files by
 
