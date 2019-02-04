@@ -5,6 +5,7 @@
 - Install Git - this comes with 3 things, your Git, Gitbash and Gitgui
 - Sign up to a Github account
 - Use the CommandLine or GitBash, you'll need to learn some easy Git commands or a GUI
+- Text editor: I've downloaded Atom - I'm assuming you might not need one but I've found it useful to type in for Markdown.  
 
 Differences between CommandLine and a GUI.
 
@@ -17,7 +18,7 @@ Differences between CommandLine and a GUI.
 |Benefits|	GUI offers maximum control too but the advanced operations cannot be performed through it.	|There is more control when it comes to using the CLI and file systems|
 
 
-I've been playing around with Gitbash(I like the colours)and creating repositories and files within that. There are commands to learn but they are fairly simple. I'll attach a list of relevant commands and what they do.
+I've been playing around with Gitbash(I like the colours)and creating repositories and files within that. There are commands to learn but they are fairly simple.
 
 Once you have downloaded Git and created your login for GitHub. You now can start playing around with your GitBash (or CommandLine). If you want to use a GUI, you'll still need your CommandLine to do the configuration.
 
@@ -61,24 +62,20 @@ Once you have created your files, you need to add them to your repository and th
 
 You can do this by
 
-`$ git add <filename>` or if you want to add them all you can type `$ git add .`
+`$ git add filename` or if you want to add them all you can type `$ git add .`
 
 You can also add all types of a file for example.
 `$ git add *.html` or `git add *.txt`
 
-or you can add all by
-`$ git add .`
+But if you want to remove the file only from the staging area and not from the repository, use:
 
-But if you want to remove the file only from the Git repository and not remove it from the filesystem, use:
-
-`git rm --cached file1.txt`
-`git commit -m "remove file1.txt"`
+`$ git rm --cached filename`
 
 If you want to delete files permanently you need to
-Use git rm:
+Use git rm but only once the files have been added (and committed)
 
-`git rm file1.txt`
-`git commit -m "remove file1.txt"`
+`$ git rm filename`
+`$ git commit -m "remove filename"`
 
 Once you have modified your file, you'll have to add it again to the Staging Area before you can commit.
 
@@ -97,8 +94,9 @@ You can check your status by again typing
 
 or you can check the log history by typing
 
-`$ git log `
+`$ git log --oneline` *A prettier version than the one below - you also don't have to exit this version*
 
+`$ git log ` or
 To exit the log press
 `q`
 

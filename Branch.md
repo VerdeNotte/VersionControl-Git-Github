@@ -7,8 +7,16 @@ To create a branch you need to enter the commands
 
 To checkout of the master branch and into your branch you need to type
 
+### Going into the Branch###
+
 `$ git checkout branchname`
 Now you'll have switched into your branch (instead of the master)
+
+### You can now type to clear the text in your GitBash ###
+
+`$ git clear`
+
+### Seeing what you have and deleting branches ###
 
 To see the branches you have you can type
 `$ git branch -a`
