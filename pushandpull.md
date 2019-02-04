@@ -2,9 +2,24 @@
 
 You need to connect your local computer to the remote repository.
 
-`$ git remote add origin websiteaddressofyourgithubrepo`
+`$ git remote add origin repo-url`
 *You can change origin to a nameofyourchoosing* - Nickname for github project
+
+repo-url refers to the the remote repository URL we copied earlier. origin is a short name for this long URL which comes in handy whenever we have to push some code to remote repository. A local repository can track multiple remote repositories, you just have to use a different short name and origin url.
 
 then you need to push it to the remote server
 
-``$ git push -u origin master` (This takes all of the files and push it to the public repository)
+`$ git push -u origin master`
+
+If your remote repository already contains some code files, then you need to pull them inside your local repository. For that, use the command below.
+
+`$ git pull`
+
+The above three steps can be combined into single step when you already have a remote repository. For that, use the command below
+
+`git clone repo-url [folder]`
+Or you can do this manually by downloading it directly from Github.
+
+You can verify if a local repository is tracking the remote repository using git remote -v command which should output below result.
+
+`$ git remote -v`
