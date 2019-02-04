@@ -102,16 +102,7 @@ or you can check the log history by typing
 To exit the log press
 `q`
 
-**5. Branching**
-To create a branch you need to enter the commands
-`git branch branchname`
-
-To checkout of the master branch and into your branch you need to type
-
-`git checkout branchname`
-Now you'll have switched into your branch (instead of the master)
-
-**6. Gitignore**
+**5. Gitignore**
 
 A gitignore file specifies intentionally untracked files that Git should ignore.
 
