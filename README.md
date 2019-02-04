@@ -1,5 +1,5 @@
 # VersionControl-Git-Github
-Understanding the basics from the beginning about Version Control, Git and Github
+Understanding the basics about Version Control, Git and Github
 
 1. Set up and a play around
 
