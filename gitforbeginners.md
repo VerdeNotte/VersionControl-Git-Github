@@ -30,7 +30,7 @@ You do this by
 `$ git config --global user.name "Your Name"`
 `$ git config --global user.email "Your email"`
 
-You also need to reset the proxy server so your local Git will be able to talk to your Remote Git.
+You also need to reset the proxy server so your local Git will be able to talk to the remote Git.
 
 `$ git config --global http.proxy http://10.248.8.12:8080`
 
@@ -38,18 +38,18 @@ You also need to reset the proxy server so your local Git will be able to talk t
 
 You need to create a repository (folder or repo) on your computer. If you right click on your newly created repository, you should see GitBash here. Click that and GitBash will open with your repository.
 
-You need to initalize the folder
+You need to initialize the folder
 
 `$ git init`
 
-You use two repositories in Git to collaborate with others: a local repo and a remote repo. Your local repo (on your computer and what we are creating here) is where you do all your work then you'll be able to `$ git push` it onto your remote repo and then `$ git pull` the remote repo back into your local repo.
+You use two repositories in Git to collaborate with others: a local repo and a remote repo. Your local repo (on your computer and what we are creating here) is where you do all your work then you'll be able to `$ git push` it onto your remote repo and then `$ git pull` the remote repo back into your local repo. (More on the pus/pull later)
 
 To be able to see the git folder in your repository. You need to unhide the folder. You can do this by clicking on Control Panel, Folder Options, View and tick the 'Show hidden, files, folders and drive ' option. Don't worry about this git folder, it just lives in your repository.
 
 **3.1 Creating files**
 You can either create the files by
 
-`$ touch index.html` (This creates an html file called index)
+`$ touch index.txt` (This creates an txt file called index)
 or simply right click in your repository
 
 *You can see what your files/Git is doing by typing*
@@ -57,7 +57,7 @@ or simply right click in your repository
 `$ git status` - this is a very important command that you'll often use to check what's happening with your repository and files.
 
 **3.2 Adding files**
-Once you have created your files, you need to add them to your repository(and the staging Area) otherwise they will be untracked and you won't be able to commit them.
+Once you have created your files, you need to add them to your repository and the staging area otherwise they will be untracked and you won't be able to commit them.
 
 You can do this by
 
