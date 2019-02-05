@@ -55,7 +55,15 @@ or simply right click in your repository
 
 *You can see what your files/Git is doing by typing*
 
-`$ git status` - this is a very important command that you'll often use to check what's happening with your repository and files.
+The main tool you use to determine which files are in which state is the `$ git status command`
+
+If you run this command directly after a clone, you should see something like this:
+
+```sh
+$ git status
+# On branch master
+nothing to commit (working directory clean)
+```
 
 **3.2 Adding files**
 Once you have created your files, you need to add them to your repository and the staging area otherwise they will be untracked and you won't be able to commit them.
@@ -78,6 +86,18 @@ Use git rm but only once the files have been added (and committed)
 `$ git commit -m "remove filename"`
 
 Once you have modified your file, you'll have to add it again to the Staging Area before you can commit.
+
+If you add a new file to your project, and the file didn't exist before, when you run a `$ git status` you should see your untracked file like this:
+
+```sh
+$ git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#   README
+nothing added to commit but untracked files present (use "git add" to track)
+```
 
 **4. Committing your file**
 To commit your files to your repository you can enter

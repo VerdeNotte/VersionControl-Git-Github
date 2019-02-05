@@ -1,7 +1,7 @@
 # Branches + Merging #
 Branching is the way you can test things out. It's an isolated environment where you can edit and play with your code before merging back onto the master once it's stable.
 
-### Creating a Branch ###
+### Creating a Branch
 To create a branch you need to enter the commands
 `$ git branch branchname`
 
