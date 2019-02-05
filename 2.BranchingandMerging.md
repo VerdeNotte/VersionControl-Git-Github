@@ -12,6 +12,9 @@ To checkout of the master branch and into your branch you need to type
 `$ git checkout branchname`
 Now you'll have switched into your branch (instead of the master)
 
+NOTE: Switching branches changes files in your working directory
+It’s important to note that when you switch branches in Git, files in your working directory will change. If you switch to an older branch, your working directory will be reverted to look like it did the last time you committed on that branch. If Git cannot do it cleanly, it will not let you switch at all.
+
 ### You can now type to clear the text in your GitBash ###
 
 `$ git clear`
