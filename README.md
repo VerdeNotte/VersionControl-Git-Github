@@ -6,3 +6,5 @@ Understanding the basics about Version Control, Git and Github
 2. Branching + Merging
 
 3. Pushing +  Pulling
+
+4. R + Github
