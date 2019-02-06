@@ -19,17 +19,17 @@ These commands are very useful when working with a remote repository.
 
  To grab a complete copy of another user's repository, you need to use `git clone`
 
- 'git clone https://github.com/USERNAME/REPOSITORY.git'
+ `git clone https://github.com/USERNAME/REPOSITORY.git`
 Clones a repository to your computer
 
 While logged in to GitHub, these URLs are available below the repository details:
 
-![image](G:\CEX\Corp Res\Strategic Transformation\Work in Progress\Sue and Rebecca)
+![Clone](https://github.com/VerdeNotte/VersionControl-Git-Github/blob/master/Clone.PNG "Clone URL")
 
 When you run git clone, the following actions occur:
 
-> A new folder called repo is made
-> It is initialized as a Git repository
-> A remote named `origin` is created, pointing to the URL you cloned from
-> All of the repository's files and commits are downloaded there
-> The default branch (usually called master) is checked out
+> -A new folder called repo is made
+> -It is initialized as a Git repository
+> -A remote named `origin` is created, pointing to the URL you cloned from
+> -All of the repository's files and commits are downloaded there
+> -The default branch (usually called master) is checked out
