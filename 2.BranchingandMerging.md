@@ -15,14 +15,16 @@ Now you'll have switched into your branch (instead of the master)
 NOTE: Switching branches changes files in your working directory
 It’s important to note that when you switch branches in Git, files in your working directory will change. If you switch to an older branch, your working directory will be reverted to look like it did the last time you committed on that branch. If Git cannot do it cleanly, it will not let you switch at all.
 
-### You can now type to clear the text in your GitBash ###
+### You can now type to clear the text in your GitBash
 
 `$ git clear`
 
-### Seeing what you have and deleting branches ###
+### Seeing what branches are there
 
 To see the branches you have you can type
 `$ git branch -a`
+
+### Deleting branches
 
 To delete branches you'll have to switch back into the master
 `$ git checkout master`
@@ -34,6 +36,8 @@ and type
 
 ### Merging a Branch to the master ###
 You have to go back to the master branch.
+
+`$ git checkout master`
 
 `$ git merge branchname`
 
