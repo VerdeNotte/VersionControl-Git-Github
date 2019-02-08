@@ -1,10 +1,14 @@
 # VersionControl-Git-Github
 Understanding the basics about Version Control, Git and Github
 
-1. Set up and a play around
+1. Local Git
 
-2. Branching + Merging
+2. GiHub Repo + Branching + Merging
 
 3. Pushing +  Pulling
 
-4. R + Github
+Resources - Please check out what we've used and useful guides to help you use Git and Github.
+
+Git For Data Science - Tutorials + websites for using Git with R.
+
+
