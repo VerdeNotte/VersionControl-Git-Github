@@ -1,3 +1,0 @@
-Notes on Version control for beginners
-
-I wonder if this will create a conflict because we have edited the same file
